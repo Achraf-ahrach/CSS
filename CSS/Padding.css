@@ -1,0 +1,9 @@
+
+div {
+    background-color: #DDD;
+    /*       Top Right Bottom Left */
+    /* padding: 10px 20px  15px; */
+    
+    /* padding: 0 0 10px; */
+    padding-bottom: 10px;
+}
