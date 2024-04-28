@@ -1,0 +1,11 @@
+div {
+    color: red;
+    background-color: red; /* Color Name */
+    background-color: rgba(26, 219, 19, 0.5); /* Red Green Blue Alpha Channel */
+    background-color: #ff0000; /* Color Hex Code */
+    background-image: url(../../img/BG1.jpg);
+    background-repeat: no-repeat;
+}
+
+
+
