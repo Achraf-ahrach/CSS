@@ -1,0 +1,27 @@
+/*
+    Block
+    - Take Full Width If No Width
+    - Add Line Break
+    - Respect Padding, Margin, Width, Height
+    
+    Inline
+    - Do Not Respect Width, Height
+    - Respect Padding And Margin [ Just Left + Right ]
+    - Do Not Add Line Break
+    - Allow Elements Before And After It
+
+    Inline-Block
+    - Allow Elements Before And After It
+    - Respect Padding, Margin, Width, Height
+    -
+
+ */
+
+ span {
+    background-color: #EEE;
+    display: inline-block;
+    padding: 20px;
+    margin: 20px;
+    width: 200px;
+    height: 10px;
+}

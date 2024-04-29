@@ -1,0 +1,11 @@
+
+div {
+    background-color: #DDD;
+    padding: 10px;
+    width: 70%;
+    margin: auto;
+    /* border-width: 10px; */
+    /* border-style: ridge; */
+    /* border-color: red green blue yellow; */
+    border: 10px ridge red;
+}

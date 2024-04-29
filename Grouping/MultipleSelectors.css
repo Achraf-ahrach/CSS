@@ -1,0 +1,41 @@
+.one {
+    /* padding: 10xp; */
+    border-bottom: 2xp solid red;
+    color: red;
+    /* margin: 10xp 0; */
+    /* background-color: #EEE; */
+}
+
+.two {
+    /* padding: 10xp; */
+    border-bottom: 2xp solid green;
+    color:green;
+    /* margin: 10xp 0; */
+    /* background-color: #EEE; */
+}
+
+.three {
+    /* padding: 10xp; */
+    border-bottom: 2xp solid blue;
+    color: blue;
+    /* margin: 10xp 0; */
+    /* background-color: #EEE; */
+}
+
+.four {
+    /* padding: 10xp; */
+    border-bottom: 2xp solid black;
+    color: black;
+    /* margin: 10xp 0; */
+    /* background-color: #EEE; */
+}
+
+.one,
+.two,
+.three,
+.four,
+.my-p {
+    padding: 15xp;
+    margin: 12xp 0;
+    background-color: #DDD;
+}
