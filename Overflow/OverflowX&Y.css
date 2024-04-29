@@ -1,0 +1,10 @@
+div {
+    width: 150px;
+    height: 150px;
+    background-color: #eee;
+    margin: 200px auto;
+    border-radius: 6px;
+    /* overflow: auto; */
+    overflow-y: auto;
+    overflow-x: auto;
+}
