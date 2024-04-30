@@ -1,0 +1,23 @@
+/*
+    Font Family
+*/
+
+/* .with-ser {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.san-ser {
+    font-family: Arial, Helvetica, sans-serif;
+} */
+
+body {
+    font-family: "Sevillana", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.with-ser,
+.san-ser {
+    border: 2px outset;
+    padding: 10px;
+}
