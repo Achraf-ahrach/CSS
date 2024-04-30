@@ -1,0 +1,29 @@
+/*
+    CSS Units
+    - px
+    - em => Time
+    - rem => Root Time
+    - percentage
+    - vw => Viewport Width 
+
+    Read
+    - vmin
+    - vh
+
+    1em = 16px This Is Wrong
+
+    Default Font Size Web Page Is 16px
+*/
+
+/* 
+body {
+    font-size: 40px;
+} */
+
+div {
+    font-size: 5vw;
+}
+
+/* div span {
+    font-size: 150%;
+} */
