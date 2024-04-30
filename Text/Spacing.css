@@ -1,0 +1,18 @@
+/* 
+    Text Spacing
+    - Letter Spacing
+    - Indentation
+    - Line Height
+    - Word Spacing + Wraping + White Space
+*/
+
+div {
+    background-color: #8d8d8d;
+    /* letter-spacing: 2px; */
+    /* text-indent: 20px;*/
+    /* line-height: 1.6; */
+    /* word-spacing: 3px; */
+    width: 230px;
+    white-space: normal;
+    word-break: break-word;
+}
