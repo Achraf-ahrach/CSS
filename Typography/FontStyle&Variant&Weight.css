@@ -1,0 +1,12 @@
+/* 
+    Font Style
+    Font Variant
+    Font Weight
+*/
+
+div {
+    /* font-style: italic; */
+    /* font-variant: small-caps; */
+    font-weight: bold;
+    font-weight: normal;
+}
