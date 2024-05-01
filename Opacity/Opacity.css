@@ -1,0 +1,9 @@
+
+.one {
+    background-color: red;
+    opacity: 0.2;
+}
+
+.two {
+    background-color: rgb(255 0 0 / 0.2);
+}
