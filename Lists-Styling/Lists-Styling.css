@@ -1,0 +1,17 @@
+
+ul {
+    list-style-type: disclosure-closed;
+    /* padding: 0;
+    list-style: none; */
+}
+
+ul ul {
+    list-style-type: decimal;
+}
+
+li {
+    background-color: #eee;
+    margin-bottom: 10px;
+    /* list-style-image: url(mg.jpg); */
+    /* list-style: armenian; */
+}
