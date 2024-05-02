@@ -2,4 +2,20 @@
     Pseudo Elements
 */
 
-jfjkdj  
+.one::first-line {
+    font-weight: bold;
+    color: green;
+}
+
+.two::first-letter {
+    display: inline-block;
+    background-color: red;
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.three::selection {
+    background-color: black;
+    color: blue;
+}
