@@ -5,6 +5,7 @@
 .parent {
     margin-bottom: 20px;
     overflow: hidden;
+    counter-increment: members-counter;
 }
 
 .one {
@@ -15,21 +16,11 @@
     position: relative;
 }
 
-.one::after {
-    content: "";
-    position: absolute;
-    width: 5px;
-    height: 100%;
-    right: -10px;
-    top: 0;
-    background-color: #009688;
-}
-
 .one::before {
     content: "";
     width: 0;
     height: 0;
-    background-color: white;
+
     position: absolute;
     left: -20px;
     top: 50%;
@@ -37,6 +28,35 @@
     border-width: 10px;
     border-style: ridge;
     border-color: transparent #576944 transparent transparent;
+}
+
+/* hover ==> text */
+
+/* .one::before {
+    content: attr(data-text);
+    display: none;
+}
+
+.one:hover::before {
+    display: block;
+    background-color: red;
+    color: white;
+    width: fit-content;
+} */
+
+.one::after {
+    content: counter(members-counter);
+    position: absolute;
+    background-color: red;
+    color: white;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    font-weight: bold;
+    right: -10px;
+    top: 50%;
+    margin-top: -10px;
+
 }
 
 .user {
@@ -62,3 +82,28 @@ hr {
     top: 0;
     background-color: #009688;
 } */
+
+
+/* example 2 => ul */
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    position: relative;
+}
+
+ul li::before {
+    content: counter(members-counter);
+    position: absolute;
+    background-color: red;
+    color: white;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    font-weight: bold;
+    right: -10px;
+    top: 50%;
+    margin-top: -10px;
+}
