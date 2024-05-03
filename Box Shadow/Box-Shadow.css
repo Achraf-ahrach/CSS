@@ -1,0 +1,17 @@
+/*
+    Ho-Shdow | V-Shadow | Blur | Spread | color | Inset
+*/
+
+div {
+    padding: 20px;
+    background-color: #eee;
+    margin: 20px auto;
+    width: 300px;
+    box-shadow: 0px 0px 4px rgb(0 0 0 / 28%);
+    /* Multiple Shadow */
+    box-shadow: 0px 0px 10px black,
+        0px 0px 10px red,
+        0px 0px 10px blue,
+        0px 0px 10px yellow;
+
+}
