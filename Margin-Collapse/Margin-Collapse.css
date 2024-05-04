@@ -1,0 +1,43 @@
+/* 
+    The Margin Collapse
+    [1] Only Vertical Margin Collapse
+    [2] Bigger Margin Win
+    [3] Margin Collapsing With Elements Withot Anything Between
+    [4] Nesting Does Not Prevent Collapsing
+*/
+
+.parent {
+    overflow: hidden;
+    margin: auto;
+    width: 400px;
+    height: 200px;
+    padding: 10px;
+    background-color: #eee;
+}
+
+.parent .one,
+.parent .two {
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+
+.one {
+    background-color: #ddd;
+}
+
+.two {
+    background-color: #aaa;
+}
+
+.two .up {
+    background-color: red;
+    height: 80px;
+    margin-bottom: 40px;
+}
+
+.two .down {
+    height: 80px;
+    background-color: green;
+    margin-top: 20px;
+}
