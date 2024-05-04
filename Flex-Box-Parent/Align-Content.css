@@ -1,0 +1,36 @@
+/*
+    Flexible Box
+    For Parent
+    - display: flex => To Start Flexible Box
+    - flex-direction: row => Default Value
+    - flex-wrap: nowrap => Default Value
+    - flex-flow: [flex-direction] + [flex-wrap]
+    -----------
+    - justify-content: flex-start => Default Value
+    - align-items: stretch => Default Value
+    - align-content: stretch => Default Value
+    */
+
+* { 
+    box-sizing: border-box;
+}
+
+.flex {
+    background-color: #eee;
+    width: 600px;
+    height: 400px;
+    padding: 20px;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    align-content: space-between;
+}
+
+.flex div {
+    background-color: #f00;
+    color: white;
+    width: calc(94% / 3);
+    text-align: center;
+    padding: 20px;
+}
