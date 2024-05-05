@@ -1,0 +1,51 @@
+/*
+    Flexible Box
+    For Parent
+    - display: flex => To Start Flexible Box
+    - flex-direction: row => Default Value
+    - flex-wrap: nowrap => Default Value
+    - flex-flow: [flex-direction] + [flex-wrap]
+    -----------
+    - justify-content: flex-start => Default Value
+    - align-items: stretch => Default Value
+    - align-content: stretch => Default Value
+    For Child
+    - flex-grow: 0 => Defualt Value
+    - flex-shrink: 1 => Defualt Value
+    - order: 0 => Defualt Value
+    - flex-basis: auto => Defualt Value
+    - flex: Syntax[flex-grow] [flex-shrink] [flex-basis]
+        Default Value => 0 1 auto
+    - align-self: auto => Defualt Value
+*/
+
+* { 
+    box-sizing: border-box;
+}
+
+.flex {
+    background-color: #eee;
+    width: 800px;
+    padding: 20px;
+    margin: 20px auto;
+    display: inline-flex;      /* {flex and inline-flex} ! */
+    /* flex-direction: column; */
+    height: 200px;
+    align-items: flex-end;
+}
+
+.flex div {
+    background-color: #f00;
+    color: white;
+    width: 80px;
+    padding: 20px;
+    text-align: center;
+    padding: 20px;
+    margin-right: 5px;
+}
+
+/*  flex-basis  */
+
+.two {
+    align-self: normal;
+}
