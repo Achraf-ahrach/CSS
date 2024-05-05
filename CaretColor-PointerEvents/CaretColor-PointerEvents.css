@@ -1,0 +1,13 @@
+/*
+    Caret Color
+    Pointer Events
+*/
+
+p {
+    caret-color: red;
+}
+
+a:hover {
+    color: red;
+    pointer-events: none;
+}
