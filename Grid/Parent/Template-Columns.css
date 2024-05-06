@@ -1,0 +1,29 @@
+/*
+  Grid
+  Parent
+  - display: grid | inline-grid
+  - grid-template-columns: [Number Of Columns In] => [Px, %, Auto, fraction, Repeat(), Mix]
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+.parent {
+    margin: 20px auto;
+    width: 800px;
+    height: 500px;
+    background-color: #ddd;
+    display: grid;
+    /* grid-template-columns: 100px repeat(3, 40px) 25% auto; */
+    grid-template-columns: auto auto repeat(2, 1fr);
+}
+
+.parent div {
+    background-color: red;
+    color: white;
+    padding: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
