@@ -10,6 +10,8 @@
   Child
     - grid-column: [Grid Colomn Start] [Grid Colum End]
     - grid-row: [Grid Row Start] [Grid Row End]
+    - grid-erea: [Grid Row Start] [Grid Column Start] [Grid Row End] [Grid Column End]
+
 */
 
 * {
@@ -22,7 +24,9 @@
     height: 500px;
     background-color: #eee;
     display: grid;
-    grid-template-columns: repeat(6, auto);
+    grid-template-areas:
+    "head head nav nav nav"
+    "cont cont cont cont cont";
     gap: 10px 10px ;
 }
 
@@ -35,11 +39,23 @@
     text-align: center;
 }
 
-/* child */
+.parent .one {
+    grid-area: head;
+}
 
-.one {
-    /* grid-column: span 3; */
-    /* grid-column: 2 / 4; */
+.parent .two {
+    grid-area: nav;
+}
 
-    grid-row: span 4;
+.parent .three {
+    grid-area: cont;
+}
+
+.parent .nine {
+    background-color: green;
+    /* grid-row-start: 2;
+    grid-column-start: 2;
+    grid-row-end: 5;
+    grid-column-end: 6; */
+    grid-area: 3 / 2 / 5 / 5;
 }
