@@ -1,0 +1,44 @@
+/*
+  Grid
+  Parent
+    - display: grid | inline-grid
+    - grid-template-columns: [Number Of Columns In] => [Px, %, Auto, fraction, Repeat(), Mix]
+    - grid-template-rows => [Number Of Rows Height In] => [Px, %, Auto, Fraction, Repeat(), Mix]
+    - gap: [Row Gap] [Column Gap]
+    - justify-content
+    - align-content
+  Child
+    -
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+.parent {
+    margin: 20px auto;
+    width: 600px;
+    height: 500px;
+    background-color: #eee;
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+    gap: 10px 10px ;
+}
+
+.parent div {
+    background-color: red;
+    color: white;
+    padding: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* child */
+
+.one {
+    /* grid-column: span 3; */
+    /* grid-column: 2 / 4; */
+
+    grid-row: span 4;
+}
