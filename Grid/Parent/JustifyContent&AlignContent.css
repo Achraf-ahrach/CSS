@@ -5,6 +5,8 @@
   - grid-template-columns: [Number Of Columns In] => [Px, %, Auto, fraction, Repeat(), Mix]
   - grid-template-rows => [Number Of Rows Height In] => [Px, %, Auto, Fraction, Repeat(), Mix]
   - gap: [Row Gap] [Column Gap]
+  - justify-content
+  - align-content
 */
 
 * {
