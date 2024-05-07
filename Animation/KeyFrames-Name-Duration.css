@@ -1,0 +1,46 @@
+/*
+  Animation
+  - KeyFrames
+  - Name
+  - Duration
+*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    transform: translate(-50%, -50%);
+    animation: change-color;
+    animation-duration: 6s;
+}
+
+@keyframes change-color {
+    0% {
+        background-color: red;
+    }
+    50% {
+        background-color: blue;
+    }
+    75% {
+        background-color: black;
+    }
+    100% {
+        background-color: green;
+    }
+}
