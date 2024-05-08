@@ -1,0 +1,61 @@
+/*
+    CSS Selectors
+
+    - *
+    - Element => [p, div, h2]
+    - Element OtherElement => dib p
+    - .class-name
+    - #id-name
+    - .parent .child
+    - .class-one.class-two
+    - .class-name div, .class-name p
+    - .Element.class-name
+    - .parent > .child => Dirict Child
+    ============
+    == Part 2 ==
+    ============
+    - Element + Other Element => [div + p]
+    - Element ~ Other Elements => [p ~ div]
+    - [Attribute]
+    - Element[Attribute]
+    - [Attribute=Value]
+    - Element[Attribute=Value] => input[type="submit"]
+    - [Attribute~=Value] => Contains A Word
+    - [Attribute*=Value] => Contains A Atring
+    - [Attribute^=Value] => Start With A String
+    ============
+    == Part 3 ==
+    ============
+    - :first-child
+    - :last-child
+    - :first-of-type
+    - :last-of-type
+    - :only-child
+    ============
+    == Part 4 ==
+    ============
+    - :not(Selectors)
+    - :nth-child(n | even | odd ) => https://nthmaster.ru/
+    - :nth-last-child(n)
+    - :nth-of-type(n)
+    - :nth-last-of-type(n)
+    ============
+    == Part 5 ==
+    ============
+    - :root
+    - :checked
+    - :empty
+    - :disabled
+    - :required
+    - :focus
+    - ::selection
+    - ::placeholder
+*/
+
+div:last-child {
+    color: red;
+}
+
+input[type="checkbox"]:checked + label {
+    color: red;
+}
