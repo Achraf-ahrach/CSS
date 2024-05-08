@@ -27,17 +27,23 @@ div {
     border: 5px solid #E91E63;
     border-left-color: transparent;
 
-    animation: spin; 
+    animation: coloring; 
     animation-duration: 6s;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease; /* linear - ....*/
+    /* animation-iteration-count: infinite; */
+    /* animation-timing-function: linear;  */
+    /* animation-direction: reverse; */
+    /* animation-delay: 2s; */
+    /* animation-fill-mode: both; /* backwards # forward stop in end 100% */
 }
 
-@keyframes spin {
+@keyframes coloring  {
     0% {
-        transform: rotate(0deg);
+        background-color: red;
+    }
+    50% {
+        background-color: blue;
     }
     100% {
-        transform: rotate(3600deg);
+        background-color: black;
     }
 }
