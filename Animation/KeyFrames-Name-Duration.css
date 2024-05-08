@@ -26,8 +26,8 @@ div {
     align-items: center;
     color: white;
     transform: translate(-50%, -50%);
-    animation: change-color;
-    animation-duration: 6s;
+    animation: change-color;  /* <=== */
+    animation-duration: 6s;  /* <=== */
 }
 
 @keyframes change-color {
