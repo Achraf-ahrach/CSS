@@ -25,18 +25,19 @@ div {
     margin-top: -50px;
     border-radius: 50%;
     border: 5px solid #E91E63;
-    transition: 0.3s;
     border-left-color: transparent;
+
     animation: spin; 
-    animation-duration: 1s;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease; /* linrar - ....*/
 }
 
 @keyframes spin {
     0% {
         transform: rotate(0deg);
     }
-    5% {
-        transform: rotate(0deg);
-
+    100% {
+        transform: rotate(3600deg);
     }
 }
