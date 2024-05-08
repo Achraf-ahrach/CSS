@@ -27,13 +27,19 @@ div {
     border: 5px solid #E91E63;
     border-left-color: transparent;
 
-    animation: coloring; 
-    animation-duration: 6s;
-    /* animation-iteration-count: infinite; */
+    /* animation: coloring;  */
+    /* animation-duration: 6s; */
     /* animation-timing-function: linear;  */
-    /* animation-direction: reverse; */
     /* animation-delay: 2s; */
+    /* animation-iteration-count: infinite; */
+    /* animation-direction: reverse; */
     /* animation-fill-mode: both; /* backwards # forward stop in end 100% */
+    /* animation-play-state: running; */ 
+    animation: coloring 3s linear 2s infinite reverse;
+}
+
+div:hover {
+    animation-play-state: paused;
 }
 
 @keyframes coloring  {
